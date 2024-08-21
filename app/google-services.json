@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "846986428469",
+    "project_id": "imagerepository-c6791",
+    "storage_bucket": "imagerepository-c6791.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846986428469:android:27a3a90a4d001a8059b17c",
+        "android_client_info": {
+          "package_name": "com.example.imagerepository"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPM7yJ648cDPC9YLswGsEumoa3hga_Auc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
