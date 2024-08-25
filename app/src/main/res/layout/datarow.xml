@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="15sp"
+    android:layout_marginVertical="20sp"
     android:orientation="vertical">
 
     <TextView
@@ -19,11 +21,18 @@
         android:layout_height="200sp"
        android:layout_gravity="center"
         tools:srcCompat="@tools:sample/avatars" />
-
+    <TextView
+        android:id="@+id/date"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="20.12.2024" />
     <TextView
         android:id="@+id/txtComment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20sp"
         android:text="Bunu çok beğendim." />
+
 </LinearLayout>
